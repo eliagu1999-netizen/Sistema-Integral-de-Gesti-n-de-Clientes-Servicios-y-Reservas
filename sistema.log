@@ -174,3 +174,631 @@
 2026-11-18 00:01:08,200 | ERROR | La reserva debe estar confirmada para procesarse.
 2026-11-18 00:01:08,200 | INFO | Todas las pruebas automatizadas fueron aprobadas.
 2026-11-18 00:01:08,201 | INFO | Fin de ejecucion del sistema integrado.
+2026-11-18 01:30:51,669 | INFO | Inicio de ejecucion del sistema.
+2026-11-18 01:30:51,669 | INFO | Entidad creada: Carlos Perez.
+2026-11-18 01:30:51,670 | INFO | Cliente registrado: Carlos Perez.
+2026-11-18 01:30:51,670 | INFO | Entidad creada: Sala de reuniones.
+2026-11-18 01:30:51,670 | INFO | Entidad creada: Computador portatil.
+2026-11-18 01:30:51,670 | INFO | Entidad creada: Asesoria de software.
+2026-11-18 01:30:51,670 | INFO | Reserva creada: R001.
+2026-11-18 01:30:51,670 | INFO | Reserva confirmada: R001.
+2026-11-18 01:30:51,670 | INFO | Solicitud de calculo completo.
+2026-11-18 01:30:51,671 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.19 | Descuento: 0.05 | Recargo: 0.00 | Total: 113050.00
+2026-11-18 01:30:51,671 | INFO | Costo calculado para la sala Sala de reuniones.
+2026-11-18 01:30:51,671 | INFO | Reserva procesada: R001. Total: $113,050.00
+2026-11-18 01:30:51,671 | INFO | Solicitud de calculo completo.
+2026-11-18 01:30:51,671 | INFO | Calculo exitoso | Subtotal: 200000.00 | Impuesto: 0.19 | Descuento: 0.10 | Recargo: 0.05 | Total: 224910.00
+2026-11-18 01:30:51,671 | INFO | Finalizo la demostracion del sistema.
+2026-11-18 01:30:51,672 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:30:51,672 | INFO | Solicitud de calculo basico.
+2026-11-18 01:30:51,672 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.00 | Descuento: 0.00 | Recargo: 0.00 | Total: 100000.00
+2026-11-18 01:30:51,673 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:30:51,673 | INFO | Solicitud de calculo completo.
+2026-11-18 01:30:51,673 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.19 | Descuento: 0.10 | Recargo: 0.00 | Total: 107100.00
+2026-11-18 01:30:51,673 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:30:51,673 | INFO | Solicitud de calculo con descuento.
+2026-11-18 01:30:51,673 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.00 | Descuento: 0.10 | Recargo: 0.00 | Total: 90000.00
+2026-11-18 01:30:51,674 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:30:51,674 | INFO | Solicitud de calculo con impuesto.
+2026-11-18 01:30:51,674 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.19 | Descuento: 0.00 | Recargo: 0.00 | Total: 119000.00
+2026-11-18 01:30:51,674 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:30:51,674 | INFO | Solicitud de calculo completo.
+2026-11-18 01:30:51,674 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.00 | Descuento: 0.00 | Recargo: 0.10 | Total: 110000.00
+2026-11-18 01:30:51,674 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:30:51,675 | INFO | Solicitud de calculo completo.
+2026-11-18 01:30:51,675 | INFO | Calculo exitoso | Subtotal: 200000.00 | Impuesto: 0.19 | Descuento: 0.10 | Recargo: 0.05 | Total: 224910.00
+2026-11-18 01:30:51,675 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:30:51,675 | INFO | Entidad creada: Eva.
+2026-11-18 01:30:51,675 | INFO | Cliente registrado: Eva.
+2026-11-18 01:30:51,675 | INFO | Entidad creada: Portatil.
+2026-11-18 01:30:51,675 | INFO | Reserva creada: R02.
+2026-11-18 01:30:51,675 | INFO | Reserva cancelada: R02.
+2026-11-18 01:30:51,676 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:30:51,676 | INFO | Entidad creada: Ana Perez.
+2026-11-18 01:30:51,676 | INFO | Cliente registrado: Ana Perez.
+2026-11-18 01:30:51,676 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:30:51,676 | INFO | Entidad creada: Luis.
+2026-11-18 01:30:51,676 | INFO | Cliente registrado: Luis.
+2026-11-18 01:30:51,676 | INFO | Entidad creada: Sala.
+2026-11-18 01:30:51,676 | INFO | Reserva creada: R01.
+2026-11-18 01:30:51,676 | INFO | Reserva confirmada: R01.
+2026-11-18 01:30:51,676 | INFO | Solicitud de calculo completo.
+2026-11-18 01:30:51,677 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.19 | Descuento: 0.00 | Recargo: 0.00 | Total: 119000.00
+2026-11-18 01:30:51,677 | INFO | Costo calculado para la sala Sala.
+2026-11-18 01:30:51,677 | INFO | Reserva procesada: R01. Total: $119,000.00
+2026-11-18 01:30:51,677 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:30:51,677 | INFO | Entidad creada: Ana.
+2026-11-18 01:30:51,677 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:30:51,677 | INFO | Entidad creada: Asesoria tecnica.
+2026-11-18 01:30:51,677 | INFO | Solicitud de calculo completo.
+2026-11-18 01:30:51,678 | INFO | Calculo exitoso | Subtotal: 95000.00 | Impuesto: 0.00 | Descuento: 0.00 | Recargo: 0.00 | Total: 95000.00
+2026-11-18 01:30:51,678 | INFO | Costo calculado para la asesoria Asesoria tecnica.
+2026-11-18 01:30:51,678 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:30:51,678 | INFO | Entidad creada: Computador.
+2026-11-18 01:30:51,678 | INFO | Solicitud de calculo completo.
+2026-11-18 01:30:51,678 | INFO | Calculo exitoso | Subtotal: 60000.00 | Impuesto: 0.00 | Descuento: 0.00 | Recargo: 0.00 | Total: 60000.00
+2026-11-18 01:30:51,678 | INFO | Costo calculado para el alquiler de Computador.
+2026-11-18 01:30:51,679 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:30:51,679 | INFO | Entidad creada: Sala grande.
+2026-11-18 01:30:51,679 | INFO | Solicitud de calculo completo.
+2026-11-18 01:30:51,679 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.19 | Descuento: 0.00 | Recargo: 0.00 | Total: 119000.00
+2026-11-18 01:30:51,679 | INFO | Costo calculado para la sala Sala grande.
+2026-11-18 01:30:51,679 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:30:51,679 | ERROR | El descuento debe estar entre 0 y 1.
+2026-11-18 01:30:51,680 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:30:51,680 | INFO | Entidad creada: Sala.
+2026-11-18 01:30:51,680 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:30:51,680 | ERROR | El impuesto debe estar entre 0 y 1.
+2026-11-18 01:30:51,680 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:30:51,681 | INFO | Entidad creada: Pedro.
+2026-11-18 01:30:51,681 | INFO | Cliente registrado: Pedro.
+2026-11-18 01:30:51,681 | INFO | Entidad creada: Sala.
+2026-11-18 01:30:51,682 | INFO | Reserva creada: R04.
+2026-11-18 01:30:51,682 | INFO | Reserva confirmada: R04.
+2026-11-18 01:30:51,682 | INFO | Solicitud de calculo completo.
+2026-11-18 01:30:51,682 | INFO | Calculo exitoso | Subtotal: 50000.00 | Impuesto: 0.00 | Descuento: 0.00 | Recargo: 0.00 | Total: 50000.00
+2026-11-18 01:30:51,683 | INFO | Costo calculado para la sala Sala.
+2026-11-18 01:30:51,683 | INFO | Reserva procesada: R04. Total: $50,000.00
+2026-11-18 01:30:51,683 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:30:51,683 | INFO | Entidad creada: Mia.
+2026-11-18 01:30:51,683 | INFO | Cliente registrado: Mia.
+2026-11-18 01:30:51,683 | INFO | Entidad creada: Asesoria.
+2026-11-18 01:30:51,683 | INFO | Reserva creada: R03.
+2026-11-18 01:30:51,683 | ERROR | La reserva debe estar confirmada para procesarse.
+2026-11-18 01:30:51,683 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:30:51,683 | ERROR | El impuesto debe ser numerico.
+2026-11-18 01:30:51,684 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:30:51,684 | INFO | Entidad creada: Portatil.
+2026-11-18 01:30:51,684 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:30:51,685 | ERROR | El subtotal no puede ser negativo.
+2026-11-18 01:30:51,685 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:30:51,685 | INFO | Entidad creada: Ana.
+2026-11-18 01:30:51,686 | INFO | Las 22 pruebas fueron aprobadas.
+2026-11-18 01:43:38,729 | INFO | Inicio de ejecucion del sistema integrado.
+2026-11-18 01:43:38,729 | INFO | Entidad creada: Sala de reuniones (D01).
+2026-11-18 01:43:38,730 | INFO | Servicio creado: Sala de reuniones.
+2026-11-18 01:43:38,730 | INFO | Entidad creada: Computador (D02).
+2026-11-18 01:43:38,730 | INFO | Servicio creado: Computador.
+2026-11-18 01:43:38,730 | INFO | Entidad creada: Asesoria de software (D03).
+2026-11-18 01:43:38,730 | INFO | Servicio creado: Asesoria de software.
+2026-11-18 01:43:38,730 | INFO | Entidad creada: Cliente de prueba (9001).
+2026-11-18 01:43:38,731 | INFO | Cliente registrado: Cliente de prueba.
+2026-11-18 01:43:38,731 | INFO | Cliente agregado a la lista: Cliente de prueba.
+2026-11-18 01:43:38,731 | INFO | Finalizo el intento de registro de cliente.
+2026-11-18 01:43:38,731 | INFO | Operacion 1 completada correctamente.
+2026-11-18 01:43:38,731 | INFO | Fin de la operacion 1.
+2026-11-18 01:43:38,732 | INFO | Entidad creada: Cliente invalido (9002).
+2026-11-18 01:43:38,732 | ERROR | El correo electronico no es valido.
+2026-11-18 01:43:38,732 | ERROR | Operacion 2 controlada: El correo electronico no es valido.
+2026-11-18 01:43:38,732 | INFO | Fin de la operacion 2.
+2026-11-18 01:43:38,732 | INFO | Servicio agregado a la lista: Sala de reuniones.
+2026-11-18 01:43:38,732 | INFO | Operacion 3 completada correctamente.
+2026-11-18 01:43:38,733 | INFO | Fin de la operacion 3.
+2026-11-18 01:43:38,733 | INFO | Servicio agregado a la lista: Computador.
+2026-11-18 01:43:38,733 | INFO | Operacion 4 completada correctamente.
+2026-11-18 01:43:38,733 | INFO | Fin de la operacion 4.
+2026-11-18 01:43:38,733 | INFO | Servicio agregado a la lista: Asesoria de software.
+2026-11-18 01:43:38,733 | INFO | Operacion 5 completada correctamente.
+2026-11-18 01:43:38,734 | INFO | Fin de la operacion 5.
+2026-11-18 01:43:38,734 | INFO | Entidad creada: Sala invalida (D04).
+2026-11-18 01:43:38,734 | ERROR | La tarifa debe ser mayor que cero.
+2026-11-18 01:43:38,734 | ERROR | Operacion 6 controlada: La tarifa debe ser mayor que cero.
+2026-11-18 01:43:38,734 | INFO | Fin de la operacion 6.
+2026-11-18 01:43:38,734 | INFO | Reserva creada: R-DEMO.
+2026-11-18 01:43:38,735 | INFO | Reserva agregada a la lista: R-DEMO.
+2026-11-18 01:43:38,735 | INFO | Operacion 7 completada correctamente.
+2026-11-18 01:43:38,735 | INFO | Fin de la operacion 7.
+2026-11-18 01:43:38,735 | INFO | Reserva confirmada: R-DEMO.
+2026-11-18 01:43:38,735 | INFO | Operacion 8 completada correctamente.
+2026-11-18 01:43:38,735 | INFO | Fin de la operacion 8.
+2026-11-18 01:43:38,736 | INFO | Solicitud de calculo completo.
+2026-11-18 01:43:38,736 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.19 | Descuento: 0.00 | Recargo: 0.00 | Total: 119000.00
+2026-11-18 01:43:38,736 | INFO | Costo calculado para reserva de sala: Sala de reuniones.
+2026-11-18 01:43:38,736 | INFO | Reserva procesada: R-DEMO.
+2026-11-18 01:43:38,736 | INFO | Operacion 9 completada correctamente.
+2026-11-18 01:43:38,736 | INFO | Fin de la operacion 9.
+2026-11-18 01:43:38,736 | INFO | Reserva creada: R-CANCEL.
+2026-11-18 01:43:38,736 | INFO | Reserva agregada a la lista: R-CANCEL.
+2026-11-18 01:43:38,736 | INFO | Reserva cancelada: R-CANCEL.
+2026-11-18 01:43:38,736 | INFO | Operacion 10 completada correctamente.
+2026-11-18 01:43:38,737 | INFO | Fin de la operacion 10.
+2026-11-18 01:43:38,737 | INFO | Reserva creada: R-FALLIDA.
+2026-11-18 01:43:38,737 | INFO | Reserva agregada a la lista: R-FALLIDA.
+2026-11-18 01:43:38,737 | ERROR | La reserva debe estar confirmada para procesarse.
+2026-11-18 01:43:38,737 | ERROR | Operacion 11 controlada: La reserva debe estar confirmada para procesarse.
+2026-11-18 01:43:38,738 | INFO | Fin de la operacion 11.
+2026-11-18 01:43:38,738 | ERROR | Error al registrar cliente: Solo se pueden registrar objetos Cliente.
+2026-11-18 01:43:38,738 | INFO | Finalizo el intento de registro de cliente.
+2026-11-18 01:43:38,738 | ERROR | Operacion 12 controlada: No fue posible registrar el cliente.
+2026-11-18 01:43:38,738 | INFO | Fin de la operacion 12.
+2026-11-18 01:43:38,738 | INFO | Solicitud de calculo completo.
+2026-11-18 01:43:38,739 | INFO | Calculo exitoso | Subtotal: 200000.00 | Impuesto: 0.19 | Descuento: 0.10 | Recargo: 0.05 | Total: 224910.00
+2026-11-18 01:43:38,739 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,740 | INFO | Entidad creada: Carlos Perez (123456789).
+2026-11-18 01:43:38,740 | INFO | Cliente registrado: Carlos Perez.
+2026-11-18 01:43:38,740 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,740 | INFO | Entidad creada: Maria Lopez (987654321).
+2026-11-18 01:43:38,741 | ERROR | El correo electronico no es valido.
+2026-11-18 01:43:38,741 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,741 | INFO | Entidad creada: Ana Torres (456789123).
+2026-11-18 01:43:38,741 | ERROR | El telefono debe tener entre 7 y 15 digitos.
+2026-11-18 01:43:38,742 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,742 | INFO | Entidad creada: Sala de reuniones (S01).
+2026-11-18 01:43:38,742 | INFO | Servicio creado: Sala de reuniones.
+2026-11-18 01:43:38,742 | INFO | Entidad creada: Computador (S02).
+2026-11-18 01:43:38,742 | INFO | Servicio creado: Computador.
+2026-11-18 01:43:38,743 | INFO | Entidad creada: Asesoria de software (S03).
+2026-11-18 01:43:38,743 | INFO | Servicio creado: Asesoria de software.
+2026-11-18 01:43:38,743 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,743 | INFO | Entidad creada: Sala (S11).
+2026-11-18 01:43:38,743 | INFO | Servicio creado: Sala.
+2026-11-18 01:43:38,744 | INFO | Entidad creada: Computador (S12).
+2026-11-18 01:43:38,744 | INFO | Servicio creado: Computador.
+2026-11-18 01:43:38,744 | INFO | Entidad creada: Asesoria (S13).
+2026-11-18 01:43:38,744 | INFO | Servicio creado: Asesoria.
+2026-11-18 01:43:38,744 | INFO | Solicitud de calculo completo.
+2026-11-18 01:43:38,745 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.19 | Descuento: 0.10 | Recargo: 0.00 | Total: 107100.00
+2026-11-18 01:43:38,745 | INFO | Costo calculado para reserva de sala: Sala.
+2026-11-18 01:43:38,745 | INFO | Solicitud de calculo completo.
+2026-11-18 01:43:38,745 | INFO | Calculo exitoso | Subtotal: 90000.00 | Impuesto: 0.19 | Descuento: 0.05 | Recargo: 0.00 | Total: 101745.00
+2026-11-18 01:43:38,745 | INFO | Costo calculado para alquiler de equipos: Computador.
+2026-11-18 01:43:38,745 | INFO | Solicitud de calculo completo.
+2026-11-18 01:43:38,746 | INFO | Calculo exitoso | Subtotal: 176000.00 | Impuesto: 0.19 | Descuento: 0.00 | Recargo: 0.00 | Total: 209440.00
+2026-11-18 01:43:38,746 | INFO | Costo calculado para asesoria: Asesoria.
+2026-11-18 01:43:38,746 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,746 | INFO | Entidad creada: Sala (S21).
+2026-11-18 01:43:38,746 | INFO | Servicio creado: Sala.
+2026-11-18 01:43:38,747 | ERROR | La duracion debe ser mayor que cero.
+2026-11-18 01:43:38,747 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,749 | INFO | Entidad creada: Computador (S22).
+2026-11-18 01:43:38,749 | INFO | Servicio creado: Computador.
+2026-11-18 01:43:38,749 | ERROR | La cantidad debe ser mayor que cero.
+2026-11-18 01:43:38,749 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,749 | INFO | Entidad creada: Asesoria (S23).
+2026-11-18 01:43:38,749 | INFO | Servicio creado: Asesoria.
+2026-11-18 01:43:38,750 | ERROR | La modalidad debe ser virtual o presencial.
+2026-11-18 01:43:38,750 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,750 | INFO | Entidad creada: Sala invalida (S04).
+2026-11-18 01:43:38,750 | ERROR | La tarifa debe ser mayor que cero.
+2026-11-18 01:43:38,751 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,751 | ERROR | El impuesto debe estar entre 0 y 1.
+2026-11-18 01:43:38,751 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,751 | INFO | Solicitud de calculo basico.
+2026-11-18 01:43:38,752 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.00 | Descuento: 0.00 | Recargo: 0.00 | Total: 100000.00
+2026-11-18 01:43:38,752 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,752 | INFO | Solicitud de calculo con impuesto.
+2026-11-18 01:43:38,753 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.19 | Descuento: 0.00 | Recargo: 0.00 | Total: 119000.00
+2026-11-18 01:43:38,753 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,753 | INFO | Solicitud de calculo con descuento.
+2026-11-18 01:43:38,753 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.00 | Descuento: 0.10 | Recargo: 0.00 | Total: 90000.00
+2026-11-18 01:43:38,754 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,754 | INFO | Solicitud de calculo completo.
+2026-11-18 01:43:38,754 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.19 | Descuento: 0.10 | Recargo: 0.00 | Total: 107100.00
+2026-11-18 01:43:38,754 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,754 | INFO | Solicitud de calculo completo.
+2026-11-18 01:43:38,755 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.00 | Descuento: 0.00 | Recargo: 0.10 | Total: 110000.00
+2026-11-18 01:43:38,755 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,755 | INFO | Solicitud de calculo completo.
+2026-11-18 01:43:38,755 | INFO | Calculo exitoso | Subtotal: 200000.00 | Impuesto: 0.19 | Descuento: 0.10 | Recargo: 0.05 | Total: 224910.00
+2026-11-18 01:43:38,755 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,755 | ERROR | El descuento debe estar entre 0 y 1.
+2026-11-18 01:43:38,755 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,756 | ERROR | El subtotal no puede ser negativo.
+2026-11-18 01:43:38,756 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,756 | ERROR | El impuesto debe ser numerico.
+2026-11-18 01:43:38,756 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,756 | INFO | Entidad creada: Sala (S31).
+2026-11-18 01:43:38,757 | INFO | Servicio creado: Sala.
+2026-11-18 01:43:38,757 | ERROR | La capacidad debe ser mayor que cero.
+2026-11-18 01:43:38,757 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,759 | INFO | Entidad creada: Carlos Perez (1001).
+2026-11-18 01:43:38,760 | INFO | Cliente registrado: Carlos Perez.
+2026-11-18 01:43:38,760 | INFO | Entidad creada: Sala (S41).
+2026-11-18 01:43:38,760 | INFO | Servicio creado: Sala.
+2026-11-18 01:43:38,761 | INFO | Reserva creada: R01.
+2026-11-18 01:43:38,761 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,761 | INFO | Entidad creada: Maria Lopez (1002).
+2026-11-18 01:43:38,761 | INFO | Cliente registrado: Maria Lopez.
+2026-11-18 01:43:38,761 | INFO | Entidad creada: Sala (S42).
+2026-11-18 01:43:38,761 | INFO | Servicio creado: Sala.
+2026-11-18 01:43:38,761 | INFO | Reserva creada: R02.
+2026-11-18 01:43:38,761 | INFO | Reserva confirmada: R02.
+2026-11-18 01:43:38,761 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,761 | INFO | Entidad creada: Ana Torres (1003).
+2026-11-18 01:43:38,762 | INFO | Cliente registrado: Ana Torres.
+2026-11-18 01:43:38,762 | INFO | Entidad creada: Sala (S43).
+2026-11-18 01:43:38,762 | INFO | Servicio creado: Sala.
+2026-11-18 01:43:38,762 | INFO | Reserva creada: R03.
+2026-11-18 01:43:38,763 | INFO | Reserva cancelada: R03.
+2026-11-18 01:43:38,765 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,766 | INFO | Entidad creada: Pedro Ruiz (1004).
+2026-11-18 01:43:38,766 | INFO | Cliente registrado: Pedro Ruiz.
+2026-11-18 01:43:38,766 | INFO | Entidad creada: Sala (S44).
+2026-11-18 01:43:38,767 | INFO | Servicio creado: Sala.
+2026-11-18 01:43:38,767 | INFO | Reserva creada: R04.
+2026-11-18 01:43:38,767 | INFO | Reserva confirmada: R04.
+2026-11-18 01:43:38,767 | INFO | Solicitud de calculo completo.
+2026-11-18 01:43:38,768 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.19 | Descuento: 0.00 | Recargo: 0.00 | Total: 119000.00
+2026-11-18 01:43:38,768 | INFO | Costo calculado para reserva de sala: Sala.
+2026-11-18 01:43:38,768 | INFO | Reserva procesada: R04.
+2026-11-18 01:43:38,769 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:38,769 | INFO | Entidad creada: Laura Diaz (1005).
+2026-11-18 01:43:38,770 | INFO | Cliente registrado: Laura Diaz.
+2026-11-18 01:43:38,770 | INFO | Entidad creada: Sala (S45).
+2026-11-18 01:43:38,770 | INFO | Servicio creado: Sala.
+2026-11-18 01:43:38,771 | INFO | Reserva creada: R05.
+2026-11-18 01:43:38,771 | ERROR | La reserva debe estar confirmada para procesarse.
+2026-11-18 01:43:38,773 | INFO | Todas las pruebas automatizadas fueron aprobadas.
+2026-11-18 01:43:38,774 | INFO | Fin de ejecucion del sistema integrado.
+2026-11-18 01:43:43,657 | INFO | Inicio de ejecucion del sistema integrado.
+2026-11-18 01:43:43,657 | INFO | Entidad creada: Sala de reuniones (D01).
+2026-11-18 01:43:43,657 | INFO | Servicio creado: Sala de reuniones.
+2026-11-18 01:43:43,658 | INFO | Entidad creada: Computador (D02).
+2026-11-18 01:43:43,658 | INFO | Servicio creado: Computador.
+2026-11-18 01:43:43,658 | INFO | Entidad creada: Asesoria de software (D03).
+2026-11-18 01:43:43,658 | INFO | Servicio creado: Asesoria de software.
+2026-11-18 01:43:43,658 | INFO | Entidad creada: Cliente de prueba (9001).
+2026-11-18 01:43:43,659 | INFO | Cliente registrado: Cliente de prueba.
+2026-11-18 01:43:43,659 | INFO | Cliente agregado a la lista: Cliente de prueba.
+2026-11-18 01:43:43,659 | INFO | Finalizo el intento de registro de cliente.
+2026-11-18 01:43:43,659 | INFO | Operacion 1 completada correctamente.
+2026-11-18 01:43:43,660 | INFO | Fin de la operacion 1.
+2026-11-18 01:43:43,660 | INFO | Entidad creada: Cliente invalido (9002).
+2026-11-18 01:43:43,660 | ERROR | El correo electronico no es valido.
+2026-11-18 01:43:43,660 | ERROR | Operacion 2 controlada: El correo electronico no es valido.
+2026-11-18 01:43:43,661 | INFO | Fin de la operacion 2.
+2026-11-18 01:43:43,661 | INFO | Servicio agregado a la lista: Sala de reuniones.
+2026-11-18 01:43:43,662 | INFO | Operacion 3 completada correctamente.
+2026-11-18 01:43:43,662 | INFO | Fin de la operacion 3.
+2026-11-18 01:43:43,662 | INFO | Servicio agregado a la lista: Computador.
+2026-11-18 01:43:43,663 | INFO | Operacion 4 completada correctamente.
+2026-11-18 01:43:43,663 | INFO | Fin de la operacion 4.
+2026-11-18 01:43:43,663 | INFO | Servicio agregado a la lista: Asesoria de software.
+2026-11-18 01:43:43,663 | INFO | Operacion 5 completada correctamente.
+2026-11-18 01:43:43,664 | INFO | Fin de la operacion 5.
+2026-11-18 01:43:43,664 | INFO | Entidad creada: Sala invalida (D04).
+2026-11-18 01:43:43,664 | ERROR | La tarifa debe ser mayor que cero.
+2026-11-18 01:43:43,664 | ERROR | Operacion 6 controlada: La tarifa debe ser mayor que cero.
+2026-11-18 01:43:43,664 | INFO | Fin de la operacion 6.
+2026-11-18 01:43:43,665 | INFO | Reserva creada: R-DEMO.
+2026-11-18 01:43:43,665 | INFO | Reserva agregada a la lista: R-DEMO.
+2026-11-18 01:43:43,665 | INFO | Operacion 7 completada correctamente.
+2026-11-18 01:43:43,665 | INFO | Fin de la operacion 7.
+2026-11-18 01:43:43,666 | INFO | Reserva confirmada: R-DEMO.
+2026-11-18 01:43:43,666 | INFO | Operacion 8 completada correctamente.
+2026-11-18 01:43:43,667 | INFO | Fin de la operacion 8.
+2026-11-18 01:43:43,667 | INFO | Solicitud de calculo completo.
+2026-11-18 01:43:43,667 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.19 | Descuento: 0.00 | Recargo: 0.00 | Total: 119000.00
+2026-11-18 01:43:43,668 | INFO | Costo calculado para reserva de sala: Sala de reuniones.
+2026-11-18 01:43:43,668 | INFO | Reserva procesada: R-DEMO.
+2026-11-18 01:43:43,668 | INFO | Operacion 9 completada correctamente.
+2026-11-18 01:43:43,668 | INFO | Fin de la operacion 9.
+2026-11-18 01:43:43,668 | INFO | Reserva creada: R-CANCEL.
+2026-11-18 01:43:43,669 | INFO | Reserva agregada a la lista: R-CANCEL.
+2026-11-18 01:43:43,669 | INFO | Reserva cancelada: R-CANCEL.
+2026-11-18 01:43:43,669 | INFO | Operacion 10 completada correctamente.
+2026-11-18 01:43:43,669 | INFO | Fin de la operacion 10.
+2026-11-18 01:43:43,670 | INFO | Reserva creada: R-FALLIDA.
+2026-11-18 01:43:43,670 | INFO | Reserva agregada a la lista: R-FALLIDA.
+2026-11-18 01:43:43,670 | ERROR | La reserva debe estar confirmada para procesarse.
+2026-11-18 01:43:43,670 | ERROR | Operacion 11 controlada: La reserva debe estar confirmada para procesarse.
+2026-11-18 01:43:43,670 | INFO | Fin de la operacion 11.
+2026-11-18 01:43:43,671 | ERROR | Error al registrar cliente: Solo se pueden registrar objetos Cliente.
+2026-11-18 01:43:43,671 | INFO | Finalizo el intento de registro de cliente.
+2026-11-18 01:43:43,671 | ERROR | Operacion 12 controlada: No fue posible registrar el cliente.
+2026-11-18 01:43:43,671 | INFO | Fin de la operacion 12.
+2026-11-18 01:43:43,672 | INFO | Solicitud de calculo completo.
+2026-11-18 01:43:43,672 | INFO | Calculo exitoso | Subtotal: 200000.00 | Impuesto: 0.19 | Descuento: 0.10 | Recargo: 0.05 | Total: 224910.00
+2026-11-18 01:43:43,673 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,673 | INFO | Entidad creada: Carlos Perez (123456789).
+2026-11-18 01:43:43,673 | INFO | Cliente registrado: Carlos Perez.
+2026-11-18 01:43:43,674 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,674 | INFO | Entidad creada: Maria Lopez (987654321).
+2026-11-18 01:43:43,674 | ERROR | El correo electronico no es valido.
+2026-11-18 01:43:43,675 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,675 | INFO | Entidad creada: Ana Torres (456789123).
+2026-11-18 01:43:43,675 | ERROR | El telefono debe tener entre 7 y 15 digitos.
+2026-11-18 01:43:43,675 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,675 | INFO | Entidad creada: Sala de reuniones (S01).
+2026-11-18 01:43:43,675 | INFO | Servicio creado: Sala de reuniones.
+2026-11-18 01:43:43,675 | INFO | Entidad creada: Computador (S02).
+2026-11-18 01:43:43,675 | INFO | Servicio creado: Computador.
+2026-11-18 01:43:43,675 | INFO | Entidad creada: Asesoria de software (S03).
+2026-11-18 01:43:43,675 | INFO | Servicio creado: Asesoria de software.
+2026-11-18 01:43:43,676 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,676 | INFO | Entidad creada: Sala (S11).
+2026-11-18 01:43:43,676 | INFO | Servicio creado: Sala.
+2026-11-18 01:43:43,676 | INFO | Entidad creada: Computador (S12).
+2026-11-18 01:43:43,676 | INFO | Servicio creado: Computador.
+2026-11-18 01:43:43,676 | INFO | Entidad creada: Asesoria (S13).
+2026-11-18 01:43:43,677 | INFO | Servicio creado: Asesoria.
+2026-11-18 01:43:43,677 | INFO | Solicitud de calculo completo.
+2026-11-18 01:43:43,677 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.19 | Descuento: 0.10 | Recargo: 0.00 | Total: 107100.00
+2026-11-18 01:43:43,678 | INFO | Costo calculado para reserva de sala: Sala.
+2026-11-18 01:43:43,678 | INFO | Solicitud de calculo completo.
+2026-11-18 01:43:43,678 | INFO | Calculo exitoso | Subtotal: 90000.00 | Impuesto: 0.19 | Descuento: 0.05 | Recargo: 0.00 | Total: 101745.00
+2026-11-18 01:43:43,679 | INFO | Costo calculado para alquiler de equipos: Computador.
+2026-11-18 01:43:43,679 | INFO | Solicitud de calculo completo.
+2026-11-18 01:43:43,679 | INFO | Calculo exitoso | Subtotal: 176000.00 | Impuesto: 0.19 | Descuento: 0.00 | Recargo: 0.00 | Total: 209440.00
+2026-11-18 01:43:43,679 | INFO | Costo calculado para asesoria: Asesoria.
+2026-11-18 01:43:43,680 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,680 | INFO | Entidad creada: Sala (S21).
+2026-11-18 01:43:43,680 | INFO | Servicio creado: Sala.
+2026-11-18 01:43:43,680 | ERROR | La duracion debe ser mayor que cero.
+2026-11-18 01:43:43,681 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,681 | INFO | Entidad creada: Computador (S22).
+2026-11-18 01:43:43,681 | INFO | Servicio creado: Computador.
+2026-11-18 01:43:43,681 | ERROR | La cantidad debe ser mayor que cero.
+2026-11-18 01:43:43,681 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,682 | INFO | Entidad creada: Asesoria (S23).
+2026-11-18 01:43:43,682 | INFO | Servicio creado: Asesoria.
+2026-11-18 01:43:43,682 | ERROR | La modalidad debe ser virtual o presencial.
+2026-11-18 01:43:43,682 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,683 | INFO | Entidad creada: Sala invalida (S04).
+2026-11-18 01:43:43,683 | ERROR | La tarifa debe ser mayor que cero.
+2026-11-18 01:43:43,683 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,683 | ERROR | El impuesto debe estar entre 0 y 1.
+2026-11-18 01:43:43,684 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,684 | INFO | Solicitud de calculo basico.
+2026-11-18 01:43:43,684 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.00 | Descuento: 0.00 | Recargo: 0.00 | Total: 100000.00
+2026-11-18 01:43:43,684 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,685 | INFO | Solicitud de calculo con impuesto.
+2026-11-18 01:43:43,685 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.19 | Descuento: 0.00 | Recargo: 0.00 | Total: 119000.00
+2026-11-18 01:43:43,685 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,686 | INFO | Solicitud de calculo con descuento.
+2026-11-18 01:43:43,686 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.00 | Descuento: 0.10 | Recargo: 0.00 | Total: 90000.00
+2026-11-18 01:43:43,686 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,687 | INFO | Solicitud de calculo completo.
+2026-11-18 01:43:43,687 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.19 | Descuento: 0.10 | Recargo: 0.00 | Total: 107100.00
+2026-11-18 01:43:43,687 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,687 | INFO | Solicitud de calculo completo.
+2026-11-18 01:43:43,687 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.00 | Descuento: 0.00 | Recargo: 0.10 | Total: 110000.00
+2026-11-18 01:43:43,688 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,688 | INFO | Solicitud de calculo completo.
+2026-11-18 01:43:43,688 | INFO | Calculo exitoso | Subtotal: 200000.00 | Impuesto: 0.19 | Descuento: 0.10 | Recargo: 0.05 | Total: 224910.00
+2026-11-18 01:43:43,689 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,689 | ERROR | El descuento debe estar entre 0 y 1.
+2026-11-18 01:43:43,689 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,689 | ERROR | El subtotal no puede ser negativo.
+2026-11-18 01:43:43,690 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,690 | ERROR | El impuesto debe ser numerico.
+2026-11-18 01:43:43,690 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,691 | INFO | Entidad creada: Sala (S31).
+2026-11-18 01:43:43,691 | INFO | Servicio creado: Sala.
+2026-11-18 01:43:43,691 | ERROR | La capacidad debe ser mayor que cero.
+2026-11-18 01:43:43,691 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,692 | INFO | Entidad creada: Carlos Perez (1001).
+2026-11-18 01:43:43,692 | INFO | Cliente registrado: Carlos Perez.
+2026-11-18 01:43:43,692 | INFO | Entidad creada: Sala (S41).
+2026-11-18 01:43:43,692 | INFO | Servicio creado: Sala.
+2026-11-18 01:43:43,693 | INFO | Reserva creada: R01.
+2026-11-18 01:43:43,693 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,693 | INFO | Entidad creada: Maria Lopez (1002).
+2026-11-18 01:43:43,693 | INFO | Cliente registrado: Maria Lopez.
+2026-11-18 01:43:43,693 | INFO | Entidad creada: Sala (S42).
+2026-11-18 01:43:43,694 | INFO | Servicio creado: Sala.
+2026-11-18 01:43:43,694 | INFO | Reserva creada: R02.
+2026-11-18 01:43:43,694 | INFO | Reserva confirmada: R02.
+2026-11-18 01:43:43,694 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,695 | INFO | Entidad creada: Ana Torres (1003).
+2026-11-18 01:43:43,695 | INFO | Cliente registrado: Ana Torres.
+2026-11-18 01:43:43,695 | INFO | Entidad creada: Sala (S43).
+2026-11-18 01:43:43,695 | INFO | Servicio creado: Sala.
+2026-11-18 01:43:43,695 | INFO | Reserva creada: R03.
+2026-11-18 01:43:43,695 | INFO | Reserva cancelada: R03.
+2026-11-18 01:43:43,695 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,696 | INFO | Entidad creada: Pedro Ruiz (1004).
+2026-11-18 01:43:43,696 | INFO | Cliente registrado: Pedro Ruiz.
+2026-11-18 01:43:43,696 | INFO | Entidad creada: Sala (S44).
+2026-11-18 01:43:43,696 | INFO | Servicio creado: Sala.
+2026-11-18 01:43:43,697 | INFO | Reserva creada: R04.
+2026-11-18 01:43:43,697 | INFO | Reserva confirmada: R04.
+2026-11-18 01:43:43,697 | INFO | Solicitud de calculo completo.
+2026-11-18 01:43:43,697 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.19 | Descuento: 0.00 | Recargo: 0.00 | Total: 119000.00
+2026-11-18 01:43:43,698 | INFO | Costo calculado para reserva de sala: Sala.
+2026-11-18 01:43:43,698 | INFO | Reserva procesada: R04.
+2026-11-18 01:43:43,698 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:43:43,698 | INFO | Entidad creada: Laura Diaz (1005).
+2026-11-18 01:43:43,699 | INFO | Cliente registrado: Laura Diaz.
+2026-11-18 01:43:43,699 | INFO | Entidad creada: Sala (S45).
+2026-11-18 01:43:43,699 | INFO | Servicio creado: Sala.
+2026-11-18 01:43:43,699 | INFO | Reserva creada: R05.
+2026-11-18 01:43:43,699 | ERROR | La reserva debe estar confirmada para procesarse.
+2026-11-18 01:43:43,699 | INFO | Todas las pruebas automatizadas fueron aprobadas.
+2026-11-18 01:43:43,699 | INFO | Fin de ejecucion del sistema integrado.
+2026-11-18 01:44:18,174 | INFO | Inicio de ejecucion del sistema integrado.
+2026-11-18 01:44:18,174 | INFO | Entidad creada: Sala de reuniones (D01).
+2026-11-18 01:44:18,174 | INFO | Servicio creado: Sala de reuniones.
+2026-11-18 01:44:18,174 | INFO | Entidad creada: Computador (D02).
+2026-11-18 01:44:18,174 | INFO | Servicio creado: Computador.
+2026-11-18 01:44:18,175 | INFO | Entidad creada: Asesoria de software (D03).
+2026-11-18 01:44:18,175 | INFO | Servicio creado: Asesoria de software.
+2026-11-18 01:44:18,175 | INFO | Entidad creada: Cliente de prueba (9001).
+2026-11-18 01:44:18,175 | INFO | Cliente registrado: Cliente de prueba.
+2026-11-18 01:44:18,175 | INFO | Cliente agregado a la lista: Cliente de prueba.
+2026-11-18 01:44:18,175 | INFO | Finalizo el intento de registro de cliente.
+2026-11-18 01:44:18,175 | INFO | Operacion 1 completada correctamente.
+2026-11-18 01:44:18,175 | INFO | Fin de la operacion 1.
+2026-11-18 01:44:18,176 | INFO | Entidad creada: Cliente invalido (9002).
+2026-11-18 01:44:18,176 | ERROR | El correo electronico no es valido.
+2026-11-18 01:44:18,176 | ERROR | Operacion 2 controlada: El correo electronico no es valido.
+2026-11-18 01:44:18,176 | INFO | Fin de la operacion 2.
+2026-11-18 01:44:18,178 | INFO | Servicio agregado a la lista: Sala de reuniones.
+2026-11-18 01:44:18,178 | INFO | Operacion 3 completada correctamente.
+2026-11-18 01:44:18,178 | INFO | Fin de la operacion 3.
+2026-11-18 01:44:18,178 | INFO | Servicio agregado a la lista: Computador.
+2026-11-18 01:44:18,179 | INFO | Operacion 4 completada correctamente.
+2026-11-18 01:44:18,179 | INFO | Fin de la operacion 4.
+2026-11-18 01:44:18,179 | INFO | Servicio agregado a la lista: Asesoria de software.
+2026-11-18 01:44:18,179 | INFO | Operacion 5 completada correctamente.
+2026-11-18 01:44:18,179 | INFO | Fin de la operacion 5.
+2026-11-18 01:44:18,179 | INFO | Entidad creada: Sala invalida (D04).
+2026-11-18 01:44:18,179 | ERROR | La tarifa debe ser mayor que cero.
+2026-11-18 01:44:18,179 | ERROR | Operacion 6 controlada: La tarifa debe ser mayor que cero.
+2026-11-18 01:44:18,180 | INFO | Fin de la operacion 6.
+2026-11-18 01:44:18,180 | INFO | Reserva creada: R-DEMO.
+2026-11-18 01:44:18,181 | INFO | Reserva agregada a la lista: R-DEMO.
+2026-11-18 01:44:18,183 | INFO | Operacion 7 completada correctamente.
+2026-11-18 01:44:18,183 | INFO | Fin de la operacion 7.
+2026-11-18 01:44:18,184 | INFO | Reserva confirmada: R-DEMO.
+2026-11-18 01:44:18,185 | INFO | Operacion 8 completada correctamente.
+2026-11-18 01:44:18,185 | INFO | Fin de la operacion 8.
+2026-11-18 01:44:18,186 | INFO | Solicitud de calculo completo.
+2026-11-18 01:44:18,186 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.19 | Descuento: 0.00 | Recargo: 0.00 | Total: 119000.00
+2026-11-18 01:44:18,186 | INFO | Costo calculado para reserva de sala: Sala de reuniones.
+2026-11-18 01:44:18,186 | INFO | Reserva procesada: R-DEMO.
+2026-11-18 01:44:18,187 | INFO | Operacion 9 completada correctamente.
+2026-11-18 01:44:18,187 | INFO | Fin de la operacion 9.
+2026-11-18 01:44:18,187 | INFO | Reserva creada: R-CANCEL.
+2026-11-18 01:44:18,188 | INFO | Reserva agregada a la lista: R-CANCEL.
+2026-11-18 01:44:18,189 | INFO | Reserva cancelada: R-CANCEL.
+2026-11-18 01:44:18,189 | INFO | Operacion 10 completada correctamente.
+2026-11-18 01:44:18,189 | INFO | Fin de la operacion 10.
+2026-11-18 01:44:18,189 | INFO | Reserva creada: R-FALLIDA.
+2026-11-18 01:44:18,189 | INFO | Reserva agregada a la lista: R-FALLIDA.
+2026-11-18 01:44:18,190 | ERROR | La reserva debe estar confirmada para procesarse.
+2026-11-18 01:44:18,191 | ERROR | Operacion 11 controlada: La reserva debe estar confirmada para procesarse.
+2026-11-18 01:44:18,191 | INFO | Fin de la operacion 11.
+2026-11-18 01:44:18,191 | ERROR | Error al registrar cliente: Solo se pueden registrar objetos Cliente.
+2026-11-18 01:44:18,191 | INFO | Finalizo el intento de registro de cliente.
+2026-11-18 01:44:18,192 | ERROR | Operacion 12 controlada: No fue posible registrar el cliente.
+2026-11-18 01:44:18,192 | INFO | Fin de la operacion 12.
+2026-11-18 01:44:18,193 | INFO | Solicitud de calculo completo.
+2026-11-18 01:44:18,194 | INFO | Calculo exitoso | Subtotal: 200000.00 | Impuesto: 0.19 | Descuento: 0.10 | Recargo: 0.05 | Total: 224910.00
+2026-11-18 01:44:18,196 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,196 | INFO | Entidad creada: Carlos Perez (123456789).
+2026-11-18 01:44:18,197 | INFO | Cliente registrado: Carlos Perez.
+2026-11-18 01:44:18,198 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,199 | INFO | Entidad creada: Maria Lopez (987654321).
+2026-11-18 01:44:18,199 | ERROR | El correo electronico no es valido.
+2026-11-18 01:44:18,200 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,200 | INFO | Entidad creada: Ana Torres (456789123).
+2026-11-18 01:44:18,201 | ERROR | El telefono debe tener entre 7 y 15 digitos.
+2026-11-18 01:44:18,202 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,202 | INFO | Entidad creada: Sala de reuniones (S01).
+2026-11-18 01:44:18,202 | INFO | Servicio creado: Sala de reuniones.
+2026-11-18 01:44:18,203 | INFO | Entidad creada: Computador (S02).
+2026-11-18 01:44:18,203 | INFO | Servicio creado: Computador.
+2026-11-18 01:44:18,204 | INFO | Entidad creada: Asesoria de software (S03).
+2026-11-18 01:44:18,204 | INFO | Servicio creado: Asesoria de software.
+2026-11-18 01:44:18,205 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,205 | INFO | Entidad creada: Sala (S11).
+2026-11-18 01:44:18,205 | INFO | Servicio creado: Sala.
+2026-11-18 01:44:18,205 | INFO | Entidad creada: Computador (S12).
+2026-11-18 01:44:18,206 | INFO | Servicio creado: Computador.
+2026-11-18 01:44:18,206 | INFO | Entidad creada: Asesoria (S13).
+2026-11-18 01:44:18,206 | INFO | Servicio creado: Asesoria.
+2026-11-18 01:44:18,206 | INFO | Solicitud de calculo completo.
+2026-11-18 01:44:18,206 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.19 | Descuento: 0.10 | Recargo: 0.00 | Total: 107100.00
+2026-11-18 01:44:18,206 | INFO | Costo calculado para reserva de sala: Sala.
+2026-11-18 01:44:18,207 | INFO | Solicitud de calculo completo.
+2026-11-18 01:44:18,207 | INFO | Calculo exitoso | Subtotal: 90000.00 | Impuesto: 0.19 | Descuento: 0.05 | Recargo: 0.00 | Total: 101745.00
+2026-11-18 01:44:18,208 | INFO | Costo calculado para alquiler de equipos: Computador.
+2026-11-18 01:44:18,208 | INFO | Solicitud de calculo completo.
+2026-11-18 01:44:18,208 | INFO | Calculo exitoso | Subtotal: 176000.00 | Impuesto: 0.19 | Descuento: 0.00 | Recargo: 0.00 | Total: 209440.00
+2026-11-18 01:44:18,209 | INFO | Costo calculado para asesoria: Asesoria.
+2026-11-18 01:44:18,209 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,211 | INFO | Entidad creada: Sala (S21).
+2026-11-18 01:44:18,211 | INFO | Servicio creado: Sala.
+2026-11-18 01:44:18,211 | ERROR | La duracion debe ser mayor que cero.
+2026-11-18 01:44:18,212 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,212 | INFO | Entidad creada: Computador (S22).
+2026-11-18 01:44:18,212 | INFO | Servicio creado: Computador.
+2026-11-18 01:44:18,212 | ERROR | La cantidad debe ser mayor que cero.
+2026-11-18 01:44:18,213 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,214 | INFO | Entidad creada: Asesoria (S23).
+2026-11-18 01:44:18,214 | INFO | Servicio creado: Asesoria.
+2026-11-18 01:44:18,214 | ERROR | La modalidad debe ser virtual o presencial.
+2026-11-18 01:44:18,216 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,217 | INFO | Entidad creada: Sala invalida (S04).
+2026-11-18 01:44:18,217 | ERROR | La tarifa debe ser mayor que cero.
+2026-11-18 01:44:18,217 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,217 | ERROR | El impuesto debe estar entre 0 y 1.
+2026-11-18 01:44:18,218 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,218 | INFO | Solicitud de calculo basico.
+2026-11-18 01:44:18,219 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.00 | Descuento: 0.00 | Recargo: 0.00 | Total: 100000.00
+2026-11-18 01:44:18,220 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,220 | INFO | Solicitud de calculo con impuesto.
+2026-11-18 01:44:18,220 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.19 | Descuento: 0.00 | Recargo: 0.00 | Total: 119000.00
+2026-11-18 01:44:18,220 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,220 | INFO | Solicitud de calculo con descuento.
+2026-11-18 01:44:18,220 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.00 | Descuento: 0.10 | Recargo: 0.00 | Total: 90000.00
+2026-11-18 01:44:18,221 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,221 | INFO | Solicitud de calculo completo.
+2026-11-18 01:44:18,221 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.19 | Descuento: 0.10 | Recargo: 0.00 | Total: 107100.00
+2026-11-18 01:44:18,221 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,221 | INFO | Solicitud de calculo completo.
+2026-11-18 01:44:18,222 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.00 | Descuento: 0.00 | Recargo: 0.10 | Total: 110000.00
+2026-11-18 01:44:18,222 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,222 | INFO | Solicitud de calculo completo.
+2026-11-18 01:44:18,222 | INFO | Calculo exitoso | Subtotal: 200000.00 | Impuesto: 0.19 | Descuento: 0.10 | Recargo: 0.05 | Total: 224910.00
+2026-11-18 01:44:18,222 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,223 | ERROR | El descuento debe estar entre 0 y 1.
+2026-11-18 01:44:18,223 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,223 | ERROR | El subtotal no puede ser negativo.
+2026-11-18 01:44:18,224 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,224 | ERROR | El impuesto debe ser numerico.
+2026-11-18 01:44:18,224 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,224 | INFO | Entidad creada: Sala (S31).
+2026-11-18 01:44:18,224 | INFO | Servicio creado: Sala.
+2026-11-18 01:44:18,224 | ERROR | La capacidad debe ser mayor que cero.
+2026-11-18 01:44:18,224 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,224 | INFO | Entidad creada: Carlos Perez (1001).
+2026-11-18 01:44:18,225 | INFO | Cliente registrado: Carlos Perez.
+2026-11-18 01:44:18,225 | INFO | Entidad creada: Sala (S41).
+2026-11-18 01:44:18,225 | INFO | Servicio creado: Sala.
+2026-11-18 01:44:18,225 | INFO | Reserva creada: R01.
+2026-11-18 01:44:18,225 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,225 | INFO | Entidad creada: Maria Lopez (1002).
+2026-11-18 01:44:18,226 | INFO | Cliente registrado: Maria Lopez.
+2026-11-18 01:44:18,226 | INFO | Entidad creada: Sala (S42).
+2026-11-18 01:44:18,226 | INFO | Servicio creado: Sala.
+2026-11-18 01:44:18,226 | INFO | Reserva creada: R02.
+2026-11-18 01:44:18,226 | INFO | Reserva confirmada: R02.
+2026-11-18 01:44:18,226 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,226 | INFO | Entidad creada: Ana Torres (1003).
+2026-11-18 01:44:18,226 | INFO | Cliente registrado: Ana Torres.
+2026-11-18 01:44:18,227 | INFO | Entidad creada: Sala (S43).
+2026-11-18 01:44:18,227 | INFO | Servicio creado: Sala.
+2026-11-18 01:44:18,227 | INFO | Reserva creada: R03.
+2026-11-18 01:44:18,231 | INFO | Reserva cancelada: R03.
+2026-11-18 01:44:18,231 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,231 | INFO | Entidad creada: Pedro Ruiz (1004).
+2026-11-18 01:44:18,231 | INFO | Cliente registrado: Pedro Ruiz.
+2026-11-18 01:44:18,231 | INFO | Entidad creada: Sala (S44).
+2026-11-18 01:44:18,232 | INFO | Servicio creado: Sala.
+2026-11-18 01:44:18,232 | INFO | Reserva creada: R04.
+2026-11-18 01:44:18,232 | INFO | Reserva confirmada: R04.
+2026-11-18 01:44:18,232 | INFO | Solicitud de calculo completo.
+2026-11-18 01:44:18,232 | INFO | Calculo exitoso | Subtotal: 100000.00 | Impuesto: 0.19 | Descuento: 0.00 | Recargo: 0.00 | Total: 119000.00
+2026-11-18 01:44:18,232 | INFO | Costo calculado para reserva de sala: Sala.
+2026-11-18 01:44:18,232 | INFO | Reserva procesada: R04.
+2026-11-18 01:44:18,232 | INFO | Inicio de una prueba automatizada.
+2026-11-18 01:44:18,232 | INFO | Entidad creada: Laura Diaz (1005).
+2026-11-18 01:44:18,232 | INFO | Cliente registrado: Laura Diaz.
+2026-11-18 01:44:18,232 | INFO | Entidad creada: Sala (S45).
+2026-11-18 01:44:18,233 | INFO | Servicio creado: Sala.
+2026-11-18 01:44:18,233 | INFO | Reserva creada: R05.
+2026-11-18 01:44:18,233 | ERROR | La reserva debe estar confirmada para procesarse.
+2026-11-18 01:44:18,233 | INFO | Todas las pruebas automatizadas fueron aprobadas.
+2026-11-18 01:44:18,234 | INFO | Fin de ejecucion del sistema integrado.

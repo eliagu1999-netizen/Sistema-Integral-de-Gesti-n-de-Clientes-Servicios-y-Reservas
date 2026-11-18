@@ -7,8 +7,6 @@ Modulo integrado:
 - Calculadora de costos con impuesto, descuento y recargo
 - Registro de eventos y errores en sistema.log
 - Gestion de reservas
-- Listas internas para clientes, servicios y reservas
-- Manejo avanzado de excepciones
 - Pruebas automatizadas
 """
 
@@ -399,9 +397,7 @@ class Asesoria(Servicio):
             f"Asesoria especializada: {self.nombre}\n"
             f"Tarifa por hora: ${self.tarifa}"
         )
-
-
-# =========================================================
+    # =========================================================
 # 10. CLASE PARA GESTIONAR LAS RESERVAS
 # =========================================================
 
@@ -453,9 +449,11 @@ class Reserva:
             raise ErrorValidacion(mensaje)
 
         self.estado = "Confirmada"
+
         registrar_evento(
             f"Reserva confirmada: {self.identificacion}."
         )
+
         return self.estado
 
     def cancelar(self):
@@ -465,9 +463,11 @@ class Reserva:
             raise ErrorValidacion(mensaje)
 
         self.estado = "Cancelada"
+
         registrar_evento(
             f"Reserva cancelada: {self.identificacion}."
         )
+
         return self.estado
 
     def procesar(self, impuesto=0, descuento=0, recargo=0):
@@ -487,6 +487,7 @@ class Reserva:
         registrar_evento(
             f"Reserva procesada: {self.identificacion}."
         )
+
         return self.costo
 
     def describir(self):
@@ -499,8 +500,11 @@ class Reserva:
             f"Estado: {self.estado}\n"
             f"Costo: {self.costo}"
         )
-    
-    # =========================================================
+
+
+
+
+# =========================================================
 # 11. GESTOR DEL SISTEMA Y LISTAS INTERNAS
 # =========================================================
 
@@ -515,55 +519,30 @@ class SistemaGestion:
     def registrar_cliente(self, cliente):
         try:
             if not isinstance(cliente, Cliente):
-                raise ErrorValidacion(
-                    "Solo se pueden registrar objetos Cliente."
-                )
-
-            if any(
-                c.identificacion == cliente.identificacion
-                for c in self.clientes
-            ):
-                raise ErrorValidacion(
-                    "Ya existe un cliente con esa identificacion."
-                )
-
+                raise ErrorValidacion("Solo se pueden registrar objetos Cliente.")
+            if any(c.identificacion == cliente.identificacion for c in self.clientes):
+                raise ErrorValidacion("Ya existe un cliente con esa identificacion.")
             self.clientes.append(cliente)
-
         except ErrorValidacion as error:
             registrar_error(f"Error al registrar cliente: {error}")
-            raise ErrorValidacion(
-                "No fue posible registrar el cliente."
-            ) from error
-
+            raise ErrorValidacion("No fue posible registrar el cliente.") from error
         else:
-            registrar_evento(
-                f"Cliente agregado a la lista: {cliente.nombre}."
-            )
+            registrar_evento(f"Cliente agregado a la lista: {cliente.nombre}.")
             return cliente
-
         finally:
-            registrar_evento(
-                "Finalizo el intento de registro de cliente."
-            )
+            registrar_evento("Finalizo el intento de registro de cliente.")
 
     def registrar_servicio(self, servicio):
         if not isinstance(servicio, Servicio):
             mensaje = "Solo se pueden registrar objetos Servicio."
             registrar_error(mensaje)
             raise ErrorValidacion(mensaje)
-
-        if any(
-            s.identificacion == servicio.identificacion
-            for s in self.servicios
-        ):
+        if any(s.identificacion == servicio.identificacion for s in self.servicios):
             mensaje = "Ya existe un servicio con esa identificacion."
             registrar_error(mensaje)
             raise ErrorValidacion(mensaje)
-
         self.servicios.append(servicio)
-        registrar_evento(
-            f"Servicio agregado a la lista: {servicio.nombre}."
-        )
+        registrar_evento(f"Servicio agregado a la lista: {servicio.nombre}.")
         return servicio
 
     def registrar_reserva(self, reserva):
@@ -571,66 +550,40 @@ class SistemaGestion:
             mensaje = "Solo se pueden registrar objetos Reserva."
             registrar_error(mensaje)
             raise ErrorValidacion(mensaje)
-
-        if any(
-            r.identificacion == reserva.identificacion
-            for r in self.reservas
-        ):
+        if any(r.identificacion == reserva.identificacion for r in self.reservas):
             mensaje = "Ya existe una reserva con esa identificacion."
             registrar_error(mensaje)
             raise ErrorValidacion(mensaje)
-
         self.reservas.append(reserva)
-        registrar_evento(
-            f"Reserva agregada a la lista: {reserva.identificacion}."
-        )
+        registrar_evento(f"Reserva agregada a la lista: {reserva.identificacion}.")
         return reserva
 
 
-# =========================================================
-# 12. FUNCION PARA EJECUTAR OPERACIONES CONTROLADAS
-# =========================================================
-
 def ejecutar_operacion(numero, descripcion, accion):
-    """
-    Ejecuta una operacion y demuestra try, except, else y finally.
-    """
-
+    """Ejecuta una operacion y demuestra try/except/else/finally."""
     print(f"Operacion {numero}: {descripcion}")
-
     try:
         resultado = accion()
-
     except Exception as error:
-        registrar_error(
-            f"Operacion {numero} controlada: {error}"
-        )
+        registrar_error(f"Operacion {numero} controlada: {error}")
         print(f"  Resultado controlado: {error}")
         return False
-
     else:
         print(f"  Resultado: {resultado}")
-        registrar_evento(
-            f"Operacion {numero} completada correctamente."
-        )
+        registrar_evento(f"Operacion {numero} completada correctamente.")
         return True
-
     finally:
-        registrar_evento(
-            f"Fin de la operacion {numero}."
-        )
+        registrar_evento(f"Fin de la operacion {numero}.")
 
 
 # =========================================================
-# 13. PRUEBAS AUTOMATIZADAS INTEGRADAS
+# 12. PRUEBAS AUTOMATIZADAS INTEGRADAS
 # =========================================================
 
 class PruebasSistemaSoftwareFJ(unittest.TestCase):
 
     def setUp(self):
-        registrar_evento(
-            "Inicio de una prueba automatizada."
-        )
+        registrar_evento("Inicio de una prueba automatizada.")
 
     # PRUEBA 1: REGISTRO DE CLIENTE VALIDO
 
@@ -642,10 +595,7 @@ class PruebasSistemaSoftwareFJ(unittest.TestCase):
             "3001234567"
         )
 
-        self.assertEqual(
-            cliente.nombre,
-            "Carlos Perez"
-        )
+        self.assertEqual(cliente.nombre, "Carlos Perez")
 
     # PRUEBA 2: CORREO INVALIDO
 
@@ -673,21 +623,9 @@ class PruebasSistemaSoftwareFJ(unittest.TestCase):
 
     def test_04_creacion_tres_servicios(self):
         servicios = [
-            ReservaSala(
-                "S01",
-                "Sala de reuniones",
-                50000
-            ),
-            AlquilerEquipo(
-                "S02",
-                "Computador",
-                15000
-            ),
-            Asesoria(
-                "S03",
-                "Asesoria de software",
-                80000
-            )
+            ReservaSala("S01", "Sala de reuniones", 50000),
+            AlquilerEquipo("S02", "Computador", 15000),
+            Asesoria("S03", "Asesoria de software", 80000)
         ]
 
         self.assertEqual(len(servicios), 3)
@@ -734,50 +672,29 @@ class PruebasSistemaSoftwareFJ(unittest.TestCase):
         sala = ReservaSala("S21", "Sala", 50000)
 
         with self.assertRaises(ErrorValidacion):
-            sala.calcular_costo(
-                -2,
-                capacidad=10
-            )
+            sala.calcular_costo(-2, capacidad=10)
 
     # PRUEBA 7: CANTIDAD INCORRECTA
 
     def test_07_cantidad_incorrecta(self):
-        equipo = AlquilerEquipo(
-            "S22",
-            "Computador",
-            15000
-        )
+        equipo = AlquilerEquipo("S22", "Computador", 15000)
 
         with self.assertRaises(ErrorValidacion):
-            equipo.calcular_costo(
-                2,
-                cantidad=0
-            )
+            equipo.calcular_costo(2, cantidad=0)
 
     # PRUEBA 8: MODALIDAD INCORRECTA
 
     def test_08_modalidad_incorrecta(self):
-        asesoria = Asesoria(
-            "S23",
-            "Asesoria",
-            80000
-        )
+        asesoria = Asesoria("S23", "Asesoria", 80000)
 
         with self.assertRaises(ErrorValidacion):
-            asesoria.calcular_costo(
-                2,
-                modalidad="incorrecta"
-            )
+            asesoria.calcular_costo(2, modalidad="incorrecta")
 
     # PRUEBA 9: TARIFA INCORRECTA
 
     def test_09_tarifa_incorrecta(self):
         with self.assertRaises(ErrorValidacion):
-            ReservaSala(
-                "S04",
-                "Sala invalida",
-                -5000
-            )
+            ReservaSala("S04", "Sala invalida", -5000)
 
     # PRUEBA 10: IMPUESTO INCORRECTO
 
@@ -800,10 +717,7 @@ class PruebasSistemaSoftwareFJ(unittest.TestCase):
 
     def test_12_calculo_con_impuesto(self):
         self.assertEqual(
-            CalculadoraCostos.calcular_con_impuesto(
-                100000,
-                0.19
-            ),
+            CalculadoraCostos.calcular_con_impuesto(100000, 0.19),
             119000
         )
 
@@ -811,10 +725,7 @@ class PruebasSistemaSoftwareFJ(unittest.TestCase):
 
     def test_13_calculo_con_descuento(self):
         self.assertEqual(
-            CalculadoraCostos.calcular_con_descuento(
-                100000,
-                0.10
-            ),
+            CalculadoraCostos.calcular_con_descuento(100000, 0.10),
             90000
         )
 
@@ -881,19 +792,12 @@ class PruebasSistemaSoftwareFJ(unittest.TestCase):
     # PRUEBA 20: CAPACIDAD INCORRECTA
 
     def test_20_capacidad_incorrecta(self):
-        sala = ReservaSala(
-            "S31",
-            "Sala",
-            50000
-        )
+        sala = ReservaSala("S31", "Sala", 50000)
 
         with self.assertRaises(ErrorValidacion):
-            sala.calcular_costo(
-                2,
-                capacidad=0
-            )
+            sala.calcular_costo(2, capacidad=0)
 
-    # PRUEBA 21: CREAR RESERVA
+           # PRUEBA 21: CREAR RESERVA
 
     def test_21_crear_reserva(self):
         cliente = Cliente(
@@ -903,11 +807,7 @@ class PruebasSistemaSoftwareFJ(unittest.TestCase):
             "3001234567"
         )
 
-        servicio = ReservaSala(
-            "S41",
-            "Sala",
-            50000
-        )
+        servicio = ReservaSala("S41", "Sala", 50000)
 
         reserva = Reserva(
             "R01",
@@ -918,10 +818,7 @@ class PruebasSistemaSoftwareFJ(unittest.TestCase):
             capacidad=10
         )
 
-        self.assertEqual(
-            reserva.estado,
-            "Pendiente"
-        )
+        self.assertEqual(reserva.estado, "Pendiente")
 
     # PRUEBA 22: CONFIRMAR RESERVA
 
@@ -933,11 +830,7 @@ class PruebasSistemaSoftwareFJ(unittest.TestCase):
             "3101234567"
         )
 
-        servicio = ReservaSala(
-            "S42",
-            "Sala",
-            50000
-        )
+        servicio = ReservaSala("S42", "Sala", 50000)
 
         reserva = Reserva(
             "R02",
@@ -950,10 +843,7 @@ class PruebasSistemaSoftwareFJ(unittest.TestCase):
 
         reserva.confirmar()
 
-        self.assertEqual(
-            reserva.estado,
-            "Confirmada"
-        )
+        self.assertEqual(reserva.estado, "Confirmada")
 
     # PRUEBA 23: CANCELAR RESERVA
 
@@ -965,11 +855,7 @@ class PruebasSistemaSoftwareFJ(unittest.TestCase):
             "3201234567"
         )
 
-        servicio = ReservaSala(
-            "S43",
-            "Sala",
-            50000
-        )
+        servicio = ReservaSala("S43", "Sala", 50000)
 
         reserva = Reserva(
             "R03",
@@ -982,10 +868,7 @@ class PruebasSistemaSoftwareFJ(unittest.TestCase):
 
         reserva.cancelar()
 
-        self.assertEqual(
-            reserva.estado,
-            "Cancelada"
-        )
+        self.assertEqual(reserva.estado, "Cancelada")
 
     # PRUEBA 24: PROCESAR RESERVA
 
@@ -997,11 +880,7 @@ class PruebasSistemaSoftwareFJ(unittest.TestCase):
             "3009876543"
         )
 
-        servicio = ReservaSala(
-            "S44",
-            "Sala",
-            50000
-        )
+        servicio = ReservaSala("S44", "Sala", 50000)
 
         reserva = Reserva(
             "R04",
@@ -1013,6 +892,7 @@ class PruebasSistemaSoftwareFJ(unittest.TestCase):
         )
 
         reserva.confirmar()
+
         total = reserva.procesar(impuesto=0.19)
 
         self.assertEqual(total, 119000)
@@ -1027,11 +907,7 @@ class PruebasSistemaSoftwareFJ(unittest.TestCase):
             "3011234567"
         )
 
-        servicio = ReservaSala(
-            "S45",
-            "Sala",
-            50000
-        )
+        servicio = ReservaSala("S45", "Sala", 50000)
 
         reserva = Reserva(
             "R05",
@@ -1046,8 +922,8 @@ class PruebasSistemaSoftwareFJ(unittest.TestCase):
             reserva.procesar()
 
 
-        # =========================================================
-# 14. EJECUCION DEL PROGRAMA Y LAS PRUEBAS
+# =========================================================
+# 13. EJECUCION DEL PROGRAMA Y LAS PRUEBAS
 # =========================================================
 
 if __name__ == "__main__":
@@ -1055,244 +931,89 @@ if __name__ == "__main__":
     print("==============================================")
     print("       SISTEMA INTEGRAL SOFTWARE FJ")
     print("==============================================")
-
-    registrar_evento(
-        "Inicio de ejecucion del sistema integrado."
-    )
+    registrar_evento("Inicio de ejecucion del sistema integrado.")
 
     sistema = SistemaGestion()
 
-    # CREACION DE LOS SERVICIOS
+    sala = ReservaSala("D01", "Sala de reuniones", 50000)
+    equipo = AlquilerEquipo("D02", "Computador", 15000)
+    asesoria = Asesoria("D03", "Asesoria de software", 80000)
 
-    sala = ReservaSala(
-        "D01",
-        "Sala de reuniones",
-        50000
+    ejecutar_operacion(1, "Registrar cliente valido", lambda: sistema.registrar_cliente(
+        Cliente("9001", "Cliente de prueba", "cliente@gmail.com", "3001112233")
+    ))
+
+    ejecutar_operacion(2, "Intentar registrar cliente con correo invalido", lambda:
+        sistema.registrar_cliente(Cliente("9002", "Cliente invalido", "correo_malo", "3001112234"))
     )
 
-    equipo = AlquilerEquipo(
-        "D02",
-        "Computador",
-        15000
+    ejecutar_operacion(3, "Registrar servicio de sala", lambda: sistema.registrar_servicio(sala))
+    ejecutar_operacion(4, "Registrar servicio de equipos", lambda: sistema.registrar_servicio(equipo))
+    ejecutar_operacion(5, "Registrar servicio de asesoria", lambda: sistema.registrar_servicio(asesoria))
+
+    ejecutar_operacion(6, "Intentar crear servicio con tarifa invalida", lambda:
+        ReservaSala("D04", "Sala invalida", -1000)
     )
-
-    asesoria = Asesoria(
-        "D03",
-        "Asesoria de software",
-        80000
-    )
-
-    # OPERACION 1: REGISTRAR CLIENTE VALIDO
-
-    ejecutar_operacion(
-        1,
-        "Registrar cliente valido",
-        lambda: sistema.registrar_cliente(
-            Cliente(
-                "9001",
-                "Cliente de prueba",
-                "cliente@gmail.com",
-                "3001112233"
-            )
-        )
-    )
-
-    # OPERACION 2: CLIENTE CON CORREO INVALIDO
-
-    ejecutar_operacion(
-        2,
-        "Intentar registrar cliente con correo invalido",
-        lambda: sistema.registrar_cliente(
-            Cliente(
-                "9002",
-                "Cliente invalido",
-                "correo_malo",
-                "3001112234"
-            )
-        )
-    )
-
-    # OPERACION 3: REGISTRAR SERVICIO DE SALA
-
-    ejecutar_operacion(
-        3,
-        "Registrar servicio de sala",
-        lambda: sistema.registrar_servicio(sala)
-    )
-
-    # OPERACION 4: REGISTRAR SERVICIO DE EQUIPOS
-
-    ejecutar_operacion(
-        4,
-        "Registrar servicio de equipos",
-        lambda: sistema.registrar_servicio(equipo)
-    )
-
-    # OPERACION 5: REGISTRAR SERVICIO DE ASESORIA
-
-    ejecutar_operacion(
-        5,
-        "Registrar servicio de asesoria",
-        lambda: sistema.registrar_servicio(asesoria)
-    )
-
-    # OPERACION 6: SERVICIO CON TARIFA INVALIDA
-
-    ejecutar_operacion(
-        6,
-        "Intentar crear servicio con tarifa invalida",
-        lambda: ReservaSala(
-            "D04",
-            "Sala invalida",
-            -1000
-        )
-    )
-
-    # OBTENER CLIENTE REGISTRADO
 
     cliente_demo = sistema.clientes[0]
 
-    # OPERACION 7: CREAR RESERVA VALIDA
-
     reserva_demo = Reserva(
-        "R-DEMO",
-        cliente_demo,
-        sala,
-        "25/11/2026",
-        2,
-        capacidad=10
+        "R-DEMO", cliente_demo, sala, "25/11/2026", 2, capacidad=10
     )
-
-    ejecutar_operacion(
-        7,
-        "Crear reserva valida",
-        lambda: sistema.registrar_reserva(reserva_demo)
+    ejecutar_operacion(7, "Crear reserva valida", lambda: sistema.registrar_reserva(reserva_demo))
+    ejecutar_operacion(8, "Confirmar reserva", lambda: reserva_demo.confirmar())
+    ejecutar_operacion(9, "Procesar reserva confirmada", lambda:
+        f"Costo: ${reserva_demo.procesar(impuesto=0.19):,.2f}"
     )
-
-    # OPERACION 8: CONFIRMAR RESERVA
-
-    ejecutar_operacion(
-        8,
-        "Confirmar reserva",
-        lambda: reserva_demo.confirmar()
-    )
-
-    # OPERACION 9: PROCESAR RESERVA
-
-    ejecutar_operacion(
-        9,
-        "Procesar reserva confirmada",
-        lambda: (
-            f"Costo: ${reserva_demo.procesar(impuesto=0.19):,.2f}"
-        )
-    )
-
-    # OPERACION 10: CANCELAR RESERVA
 
     reserva_cancelada = Reserva(
-        "R-CANCEL",
-        cliente_demo,
-        equipo,
-        "26/11/2026",
-        1,
-        cantidad=1
+        "R-CANCEL", cliente_demo, equipo, "26/11/2026", 1, cantidad=1
     )
-
     sistema.registrar_reserva(reserva_cancelada)
-
-    ejecutar_operacion(
-        10,
-        "Cancelar una reserva pendiente",
-        lambda: reserva_cancelada.cancelar()
+    ejecutar_operacion(10, "Cancelar una reserva pendiente", lambda:
+        reserva_cancelada.cancelar()
     )
-
-    # OPERACION 11: PROCESAR RESERVA SIN CONFIRMAR
 
     reserva_sin_confirmar = Reserva(
-        "R-FALLIDA",
-        cliente_demo,
-        asesoria,
-        "27/11/2026",
-        1,
-        modalidad="virtual"
+        "R-FALLIDA", cliente_demo, asesoria, "27/11/2026", 1, modalidad="virtual"
     )
-
     sistema.registrar_reserva(reserva_sin_confirmar)
-
-    ejecutar_operacion(
-        11,
-        "Intentar procesar una reserva sin confirmar",
-        lambda: reserva_sin_confirmar.procesar()
+    ejecutar_operacion(11, "Intentar procesar una reserva sin confirmar", lambda:
+        reserva_sin_confirmar.procesar()
     )
 
-    # OPERACION 12: ENCADENAMIENTO DE EXCEPCIONES
-
-    ejecutar_operacion(
-        12,
-        "Comprobar encadenamiento de excepciones",
-        lambda: sistema.registrar_cliente(
-            "Este dato no es un objeto Cliente"
-        )
+    # Esta operacion provoca una excepcion personalizada encadenada
+    # mediante raise ... from error dentro de registrar_cliente.
+    ejecutar_operacion(12, "Comprobar encadenamiento de excepciones", lambda:
+        sistema.registrar_cliente("Este dato no es un objeto Cliente")
     )
-
-    # RESUMEN DE LAS LISTAS INTERNAS
 
     print("\nRESUMEN DE LISTAS INTERNAS:")
     print(f"Clientes registrados: {len(sistema.clientes)}")
     print(f"Servicios registrados: {len(sistema.servicios)}")
     print(f"Reservas registradas: {len(sistema.reservas)}")
 
-    # CALCULO COMPLETO
-
     print("\nEJEMPLO DE CALCULO COMPLETO:")
-
     ejemplo = CalculadoraCostos.calcular_completo(
-        200000,
-        impuesto=0.19,
-        descuento=0.10,
-        recargo=0.05
+        200000, impuesto=0.19, descuento=0.10, recargo=0.05
     )
-
     print(f"Total calculado: ${ejemplo:,.2f}")
-
-    # EJECUCION DE LAS PRUEBAS AUTOMATIZADAS
 
     print("\n==============================================")
     print("       EJECUCION DE PRUEBAS AUTOMATIZADAS")
     print("==============================================")
 
-    resultado = unittest.TextTestRunner(
-        verbosity=2
-    ).run(
-        unittest.TestLoader().loadTestsFromTestCase(
-            PruebasSistemaSoftwareFJ
-        )
+    resultado = unittest.TextTestRunner(verbosity=2).run(
+        unittest.TestLoader().loadTestsFromTestCase(PruebasSistemaSoftwareFJ)
     )
 
     if resultado.wasSuccessful():
-
-        logger.info(
-            "Todas las pruebas automatizadas fueron aprobadas."
-        )
-
-        print(
-            "\nTodas las pruebas finalizaron correctamente."
-        )
-
+        logger.info("Todas las pruebas automatizadas fueron aprobadas.")
+        print("\nTodas las pruebas finalizaron correctamente.")
     else:
+        logger.error("Se presentaron fallos en las pruebas automatizadas.")
+        print("\nSe encontraron errores. Revise los resultados.")
 
-        logger.error(
-            "Se presentaron fallos en las pruebas automatizadas."
-        )
-
-        print(
-            "\nSe encontraron errores. Revise los resultados."
-        )
-
-    registrar_evento(
-        "Fin de ejecucion del sistema integrado."
-    )
-
+    registrar_evento("Fin de ejecucion del sistema integrado.")
     print("\nArchivo de registro generado: sistema.log")
     print("==============================================")
-
